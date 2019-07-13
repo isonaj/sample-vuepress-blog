@@ -1,3 +1,6 @@
+---
+type: post
+---
 # My first post
 
 Hi everyone!
@@ -10,13 +13,14 @@ I can do *cool markdown things*.
 
 > I can quote myself
 
-:::danger
-I can make dangerous code blocks
+:::tip
+I can make friendly custom containers
 :::
 
+:::danger DANGER!
+I can make dangerous custom containers
 :::
-and I can make friendly code blocks
-:::
+
 
 ```markdown
 # Also
