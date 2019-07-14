@@ -7,9 +7,14 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last Updated',
-    "nav": [
+    nav: [
       { text: 'About Me', link: '/about-me/'}
-    ],
-  }
+    ]
+  },
+  plugins: [
+    ['@vuepress/google-analytics', {
+      'ga': 'UA-143823513-1' 
+    }]  
+  ] 
 }
   
