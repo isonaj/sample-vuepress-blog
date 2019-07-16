@@ -3,7 +3,7 @@
     <h2>Posts</h2>
     <ul>
       <li v-for="(item, index) in posts">
-        <a :href="item.path">{{item.title}}</a>
+        <a :href="item.path">{{item.title}}</a> ({{item.readingTime.text}})
       </li>
     </ul>
   </div>
