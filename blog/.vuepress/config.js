@@ -15,6 +15,10 @@ module.exports = {
         text: 'Tags',
         link: '/tag/',
       },
+      {
+        text: 'About',
+        link: '/about-me/'
+      }
     ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
@@ -42,4 +46,12 @@ module.exports = {
       ],
     },
   },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-143823513-1' // Set this to your google analytics ID
+      }
+    ]
+  ]
 }

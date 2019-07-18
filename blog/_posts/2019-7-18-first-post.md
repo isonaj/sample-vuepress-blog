@@ -1,5 +1,8 @@
 ---
 date: 2019-07-18
+tags:
+  - blog
+  - sometag
 ---
 # My First Post
 I have created a new post with `markdown` content.
